@@ -56,8 +56,8 @@ export default function Footer() {
               {status.loading
                 ? "Gönderiliyor..."
                 : status.success
-                  ? "Kayıt Alındı ✅"
-                  : "Hemen Başvuru Yap"}
+                  ? "API Test Başarılı ✅"
+                  : "API Testine Başla "}
             </button>
             {status.error && (
               <p className="text-red-500 mt-2 text-sm">{status.error}</p>

@@ -1,0 +1,130 @@
+export const siteData = {
+  tr: {
+    skills: [
+      { name: "JAVASCRIPT", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
+      { name: "REACT", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
+      { name: "REDUX", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+      { name: "NODE", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
+      { name: "VS CODE", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
+      { name: "FILEMAKER", icon: "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" },
+      { name: "PACKET TRACER", icon: "https://cdn.worldvectorlogo.com/logos/cisco-2.svg" },
+    ],
+    hero: {
+      name: "Ahmet Burak OKUR",
+      title: "Yaratıcı düşünür, Minimalizm aşığı",
+      description: "Merhaba, ben bir frontend geliştiriciyim. Sağlam ve ölçeklenebilir frontend ürünleri geliştirmeyi, harika kullanıcı deneyimleri sunmayı seviyorum.",
+      hireMe: "Beni işe al",
+      github: "Github",
+      linkedin: "LinkedIn",
+      githubUrl: "https://github.com/ABurakOKUR",
+      linkedinUrl: "https://www.linkedin.com/in/ahmet-burak-okur-845155126/",
+    },
+    profile: {
+      title: "Profil",
+      intro: "Profil",
+      aboutTitle: "Hakkımda",
+      basicInfo: [
+        { label: "Doğum tarihi", value: "21.02.1992" },
+        { label: "İkamet Şehri", value: "Kayseri" },
+        { label: "Eğitim Durumu", value: "Erciyes Ünv. İktisat Lisans, 2023" },
+        { label: "Eğitim Durumu", value: "Atatürk Ünv. Adalet Yüksek Okulu Önlisans, 2023" },
+        { label: "Eğitim Durumu", value: "Erciyes Ünv. Veteriner Zootekni Yüksek Lisans, Devam Ediyor" },
+        { label: "Tercih Ettiği Rol", value: "Frontend, UI" }
+      ],
+      aboutMe: [
+        "İktisat ve Adalet alanındaki akademik altyapımı, yazılımın mantıksal dünyasıyla birleştiren meraklı bir geliştiriciyim. Şu an Erciyes Üniversitesi'nde Veteriner Zootekni üzerine yüksek lisans yaparken, bir yandan da hayvancılık sektörüne dijital çözümler sunan rasyon programları geliştiriyorum.",
+        "Frontend dünyasında React ve modern web teknolojileriyle; kullanıcı odaklı, ölçeklenebilir ve estetik arayüzler inşa etmeye odaklanıyorum. Farklı disiplinlerden gelen çözüm üretme yeteneğimi, piksel hassasiyetinde kodlarla buluşturmayı seviyorum."
+      ]
+    },
+    projectsTitle: "Projeler",
+    projects: [
+      {
+        title: "Teknolojik Yemekler",
+        description: "Acıkan yazılımcılar için geliştirilmiş, React tabanlı bir SPA (Single Page Application) projesi. React Router ile sayfa yönetimi, karmaşık form validasyonları ve Cypress e2e testleri içerir.",
+        tags: ["react", "router", "axios", "cypress"],
+        links: { github: "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", site: "" }, 
+        img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" 
+      },
+      {
+        title: "Pizza Sipariş Formu",
+        description: "Figma tasarımına birebir sadık kalınarak geliştirilmiş, semantik HTML5 ve gelişmiş CSS tekniklerini sergileyen bir proje.",
+        tags: ["html", "css", "responsive", "ui/ux"],
+        links: { github: "https://github.com/ABurakOKUR/fsweb-s4-bonus-challenge-html-pizza", site: "" },
+        img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" 
+      }
+    ],
+    footer: {
+      title: "Bir sonraki ürünün üzerinde birlikte çalışalım.",
+      email: "aokur2@gmail.com",
+      links: [
+        { name: "Kişisel Blog", url: "#" },
+        { name: "Github", url: "https://github.com/ABurakOKUR" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/ahmet-burak-okur-845155126/" }
+      ]
+    }
+  },
+  en: {
+    skills: [
+      { name: "JAVASCRIPT", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
+      { name: "REACT", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
+      { name: "REDUX", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
+      { name: "NODE", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
+      { name: "VS CODE", icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
+      { name: "FILEMAKER", icon: "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" },
+      { name: "PACKET TRACER", icon: "https://cdn.worldvectorlogo.com/logos/cisco-2.svg" },
+    ],
+    hero: {
+      name: "Ahmet Burak OKUR",
+      title: "Creative Thinker, Minimalism Enthusiast",
+      description: "Hello, I am a frontend developer. I love building robust and scalable frontend products and delivering great user experiences.",
+      hireMe: "Hire Me",
+      github: "Github",
+      linkedin: "LinkedIn",
+      githubUrl: "https://github.com/ABurakOKUR",
+      linkedinUrl: "https://www.linkedin.com/in/ahmet-burak-okur-845155126/",
+    },
+    profile: {
+      title: "Profile",
+      intro: "Profile",
+      aboutTitle: "About Me",
+      basicInfo: [
+        { label: "Date of Birth", value: "21.02.1992" },
+        { label: "City of Residence", value: "Kayseri" },
+        { label: "Education", value: "Erciyes University, Economics, Bachelor's, 2023" },
+        { label: "Education", value: "Atatürk University, Justice, Associate Degree, 2023" },
+        { label: "Education", value: "Erciyes University, Veterinary Zootechnics, Master's, Ongoing" },
+        { label: "Preferred Role", value: "Frontend, UI" }
+      ],
+      aboutMe: [
+        "I am a curious developer merging my academic background in Economics and Justice with the logical world of software. While pursuing my Master's in Veterinary Zootechnics at Erciyes University, I develop digital solutions like ration software for the livestock industry.",
+        "In the frontend world, I focus on building user-centric, scalable, and aesthetic interfaces using React and modern web technologies. I love combining my cross-disciplinary problem-solving skills with pixel-perfect code."
+      ]
+    },
+    projectsTitle: "Projects",
+    projects: [
+      {
+        title: "Technological Meals",
+        description: "A React-based SPA (Single Page Application) project developed for hungry developers. It includes page management with React Router, complex form validations, and Cypress e2e tests.",
+        tags: ["react", "router", "axios", "cypress"],
+        links: { github: "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", site: "https://teknolojik-yemekler.vercel.app" },
+        img: "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600" 
+      },
+      {
+        title: "Pizza Order Form",
+        description: "A project developed strictly according to the Figma design, showcasing semantic HTML5 and advanced CSS techniques.",
+        tags: ["html", "css", "responsive", "ui/ux"],
+        links: { github: "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza", site: "https://pizza-form.vercel.app" },
+        img: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600" 
+      }
+    ],
+    footer: {
+      title: "Let's work together on the next product.",
+      email: "aokur2@gmail.com",
+      links: [
+        { name: "Personal Blog", url: "#" },
+        { name: "Github", url: "https://github.com/ABurakOKUR" },
+        { name: "LinkedIn", url: "https://www.linkedin.com/in/ahmet-burak-okur-845155126/" }
+      ]
+    }
+  }
+};

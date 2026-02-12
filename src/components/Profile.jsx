@@ -1,6 +1,5 @@
-import React, { useContext } from 'react';
-import { SiteContext } from '../contexts/SiteContext';
-
+import React, { useContext } from "react";
+import { SiteContext } from "../contexts/SiteContext";
 
 export default function Profile() {
   const { lang, siteData } = useContext(SiteContext);
@@ -11,9 +10,8 @@ export default function Profile() {
       <h2 className="text-5xl font-bold dark:text-white text-custom-dark mb-12">
         {profile.title}
       </h2>
-      
+
       <div className="flex flex-col md:flex-row gap-12">
-        {/* Sol Taraf: Temel Bilgiler */}
         <div className="flex-1 space-y-8">
           <h3 className="text-3xl font-medium text-custom-purple">
             {profile.intro}
@@ -32,7 +30,6 @@ export default function Profile() {
           </div>
         </div>
 
-        {/* Sağ Taraf: Hakkımda Metni */}
         <div className="flex-1 space-y-8">
           <h3 className="text-3xl font-medium text-custom-purple">
             {profile.aboutTitle}

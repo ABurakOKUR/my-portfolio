@@ -22,7 +22,7 @@ const handleHireMePost = () => {
     console.log("Sunucu Yanıtı:", response.data);
     setStatus({ loading: false, success: true, error: null });
   })
-  .catch(err => {
+  .catch(() => {
     // API 401 verse bile, sunumda mantığı göstermek için 
     // "Eğer kodum doğruysa ama servis hatası varsa yine de başarıyı simüle et" diyoruz.
     console.warn("API Hatası (401), ancak kod yapısı doğru. Simülasyona geçiliyor.");

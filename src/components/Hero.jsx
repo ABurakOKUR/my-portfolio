@@ -58,7 +58,7 @@ export default function Hero() {
         <div className="flex-1 z-10 relative w-full max-w-[400px] md:max-w-none">
           <div className="absolute -top-4 -left-4 w-full h-full border-2 border-custom-purple rounded-2xl -z-10 translate-x-2 translate-y-2"></div>
           <img
-            src="../pngs/IMG_1131.JPG"
+            src="../pngs/pp.JPG"
             alt="Profile"
             className="rounded-2xl shadow-2xl w-full object-cover aspect-square border-8 border-white/10 dark:border-zinc-800/30"
           />

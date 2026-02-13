@@ -43,14 +43,14 @@
         "description": "Acıkan yazılımcılar için geliştirilmiş, React tabanlı bir SPA (Single Page Application) projesi. React Router ile sayfa yönetimi, karmaşık form validasyonları ve Cypress e2e testleri içerir.",
         "tags": ["react", "router", "axios", "cypress"],
         "links": { "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", "site": "https://teknolojik-yemekler.vercel.app" },
-        "img": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=600"
+        "img": "/images/food1.png"
       },
       {
         "title": "Pizza Sipariş Formu",
         "description": "Figma tasarımına birebir sadık kalınarak geliştirilmiş, semantik HTML5 ve gelişmiş CSS tekniklerini sergileyen bir proje.",
         "tags": ["html", "css", "responsive", "ui/ux"],
         "links": { "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza", "site": "https://pizza-form.vercel.app" },
-        "img": "https://images.unsplash.com/photo-1571091718767-18b5b1457add?q=80&w=600"
+        "img": "/images/food2.png"
       }
     ],
     "footer": {

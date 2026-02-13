@@ -2,6 +2,7 @@
 import React, { createContext, useState, useEffect } from "react";
 import axios from "axios";
 import useLocalStorage from "../hooks/useLocalStorage";
+import { toast } from "react-toastify";
 
 export const SiteContext = createContext();
 
@@ -34,13 +35,24 @@ export const SiteContextProvider = ({ children }) => {
   }, [theme]);
 
   const toggleLang = () => {
-    setLang(lang === "tr" ? "en" : "tr");
+    const newLang = lang === "tr" ? "en" : "tr";
+    setLang(newLang);
+    toast.info(newLang === "tr" ? "Dil: Türkçe" : "Language: English", {
+      icon: "🌐",
+    });
   };
 
   const toggleTheme = () => {
-    setTheme(theme === "light" ? "dark" : "light");
+    const newTheme = theme === "light" ? "dark" : "light";
+    setTheme(newTheme);
+    if (newTheme === "dark") {
+      toast.dark("Karanlık Mod Aktif 🌙");
+    } else {
+      toast.success("Aydınlık Mod Aktif ☀️", {
+        style: { backgroundColor: "#f3f4f6", color: "#1f2937" },
+      });
+    }
   };
-
   if (!siteData || !siteData[lang]) {
     return (
       <div className="min-h-screen bg-white dark:bg-custom-dark flex items-center justify-center">

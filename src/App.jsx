@@ -1,4 +1,6 @@
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import { SiteContextProvider } from './contexts/SiteContext';
 import Header from './components/Header';
 import Skills from './components/Skills';
@@ -18,6 +20,18 @@ function App() {
           <Projects />
         </main>
         <Footer />
+        <ToastContainer 
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop={true}
+          closeOnClick
+          rtl={false}
+          pauseOnFocusLoss
+          draggable
+          pauseOnHover
+          theme="colored"
+        />
       </div>
     </SiteContextProvider>
   );

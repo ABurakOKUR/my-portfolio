@@ -19,7 +19,7 @@ export default function Footer() {
 
     axios
       .post("https://reqres.in/api/pizza", payload, {
-        headers: { "x-api-key": "reqres-free-v1" },
+        headers: { "x-api-key": "reqres_8e014d169bf740b59ac9e9875899e44a" },
       })
       .then((response) => {
         console.log("Sunucu Yanıtı:", response.data);

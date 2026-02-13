@@ -107,14 +107,14 @@
         "description": "A React-based SPA (Single Page Application) project developed for hungry developers. It includes page management with React Router, complex form validations, and Cypress e2e testst.",
         "tags": ["react", "router", "axios", "cypress"],
         "links": { "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", "site": "https://teknolojik-yemekler.vercel.app" },
-        "img": "./images/food-1.png"
+        "img": "/images/food-1.png"
       },
       {
         "title": "Pizza Order Form",
         "description": "A project developed strictly according to the Figma design, showcasing semantic HTML5 and advanced CSS techniques.",
         "tags": ["html", "css", "responsive", "ui/ux"],
         "links": { "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza", "site": "https://pizza-form.vercel.app" },
-        "img": "./images/food-2.png"
+        "img": "/images/food-2.png"
       }
     ],
     "footer": {

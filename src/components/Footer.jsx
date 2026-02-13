@@ -13,40 +13,37 @@ export default function Footer() {
   });
 
   const handleHireMePost = () => {
-  setStatus({ loading: true, success: false, error: null });
+    setStatus({ loading: true, success: false, error: null });
 
-  
-  const pizzaData = {
-    isim: "Ahmet Burak OKUR",
-    boyut: "Büyük",
-    malzemeler: ["Mısır", "Zeytin", "Peynir"],
-    özel: "Portfolyo sunum testi"
+    const pizzaData = {
+      isim: "Ahmet Burak OKUR",
+      boyut: "Büyük",
+      malzemeler: ["Mısır", "Zeytin", "Peynir"],
+      özel: "Portfolyo sunum testi",
+    };
+
+    axios({
+      method: "post",
+      url: "https://reqres.in/api/pizza",
+      data: pizzaData,
+      headers: {
+        "Content-Type": "application/json",
+        "x-api-key": "reqres_8e014d169bf740b59ac9e9875899e44a",
+      },
+    })
+      .then((response) => {
+        console.log("Sunucudan Gelen Onay:", response.data);
+        setStatus({ loading: false, success: true, error: null });
+      })
+      .catch((err) => {
+        console.error("Hata Detayı:", err.response?.data || err.message);
+        setStatus({
+          loading: false,
+          success: false,
+          error: `Hata: ${err.response?.status || "Bilinmiyor"} - Yetki sorunu.`,
+        });
+      });
   };
-
-  
-  axios({
-    method: 'post',
-    url: 'https://reqres.in/api/pizza',
-    data: pizzaData,
-    headers: {
-      'Content-Type': 'application/json',
-      'x-api-key': "reqres_8e014d169bf740b59ac9e9875899e44a"
-    }
-  })
-  .then(response => {
-    
-    console.log("Sunucudan Gelen Onay:", response.data);
-    setStatus({ loading: false, success: true, error: null });
-  })
-  .catch(err => {
-    console.error("Hata Detayı:", err.response?.data || err.message);
-    setStatus({ 
-      loading: false, 
-      success: false, 
-      error: `Hata: ${err.response?.status || 'Bilinmiyor'} - Yetki sorunu.` 
-    });
-  });
-};
 
   return (
     <footer className="py-20 px-4 bg-zinc-50 dark:bg-zinc-900 transition-colors border-t dark:border-zinc-800">
@@ -66,10 +63,10 @@ export default function Footer() {
                   : "bg-custom-purple text-white hover:opacity-90"
               }`}>
               {status.loading
-                ? "Gönderiliyor..."
+                ? footer.loadingText
                 : status.success
-                  ? "API Test Başarılı ✅"
-                  : "API Testine Başla "}
+                  ? footer.successText
+                  : footer.buttonText}
             </button>
             {status.error && (
               <p className="text-red-500 mt-2 text-sm">{status.error}</p>

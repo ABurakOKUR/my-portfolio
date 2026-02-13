@@ -1,13 +1,34 @@
 {
   "tr": {
     "skills": [
-      { "name": "JAVASCRIPT", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
-      { "name": "REACT", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
-      { "name": "REDUX", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
-      { "name": "NODE", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
-      { "name": "VS CODE", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
-      { "name": "FILEMAKER", "icon": "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" },
-      { "name": "PACKET TRACER", "icon": "https://cdn.worldvectorlogo.com/logos/cisco-2.svg" }
+      {
+        "name": "JAVASCRIPT",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "REACT",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+      },
+      {
+        "name": "REDUX",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      },
+      {
+        "name": "NODE",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "VS CODE",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+      },
+      {
+        "name": "FILEMAKER",
+        "icon": "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg"
+      },
+      {
+        "name": "PACKET TRACER",
+        "icon": "https://cdn.worldvectorlogo.com/logos/cisco-2.svg"
+      }
     ],
     "hero": {
       "name": "Ahmet Burak OKUR",
@@ -26,9 +47,18 @@
       "basicInfo": [
         { "label": "Doğum tarihi", "value": "21.02.1992" },
         { "label": "İkamet Şehri", "value": "Kayseri" },
-        { "label": "Eğitim Durumu", "value": "Erciyes Ünv. İktisat Lisans, 2023" },
-        { "label": "Eğitim Durumu", "value": "Atatürk Ünv. Adalet Yüksek Okulu Önlisans, 2023" },
-        { "label": "Eğitim Durumu", "value": "Erciyes Ünv. Veteriner Zootekni Yüksek Lisans, Devam Ediyor" },
+        {
+          "label": "Eğitim Durumu",
+          "value": "Erciyes Ünv. İktisat Lisans, 2023"
+        },
+        {
+          "label": "Eğitim Durumu",
+          "value": "Atatürk Ünv. Adalet Yüksek Okulu Önlisans, 2023"
+        },
+        {
+          "label": "Eğitim Durumu",
+          "value": "Erciyes Ünv. Veteriner Zootekni Yüksek Lisans, Devam Ediyor"
+        },
         { "label": "Tercih Ettiği Rol", "value": "Frontend, UI" }
       ],
       "aboutMe": [
@@ -42,36 +72,69 @@
         "title": "Teknolojik Yemekler",
         "description": "Acıkan yazılımcılar için geliştirilmiş, React tabanlı bir SPA (Single Page Application) projesi. React Router ile sayfa yönetimi, karmaşık form validasyonları ve Cypress e2e testleri içerir.",
         "tags": ["react", "router", "axios", "cypress"],
-        "links": { "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", "site": "https://teknolojik-yemekler.vercel.app" },
+        "links": {
+          "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza",
+          "site": "https://teknolojik-yemekler.vercel.app"
+        },
         "img": "/images/food1.png"
       },
       {
         "title": "Pizza Sipariş Formu",
         "description": "Figma tasarımına birebir sadık kalınarak geliştirilmiş, semantik HTML5 ve gelişmiş CSS tekniklerini sergileyen bir proje.",
         "tags": ["html", "css", "responsive", "ui/ux"],
-        "links": { "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza", "site": "https://pizza-form.vercel.app" },
+        "links": {
+          "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza",
+          "site": "https://pizza-form.vercel.app"
+        },
         "img": "/images/food2.png"
       }
     ],
     "footer": {
       "title": "Bir sonraki ürünün üzerinde birlikte çalışalım.",
       "email": "aokur2@gmail.com",
+      "buttonText": "API Testine Başla",
+      "loadingText": "Gönderiliyor...",
+      "successText": "API Test Başarılı ✅",
       "links": [
         { "name": "Kişisel Blog", "url": "#" },
         { "name": "Github", "url": "https://github.com/ABurakOKUR" },
-        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/ahmet-burak-okur-845155126/" }
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ahmet-burak-okur-845155126/"
+        }
       ]
     }
   },
   "en": {
     "skills": [
-      { "name": "JAVASCRIPT", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" },
-      { "name": "REACT", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" },
-      { "name": "REDUX", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" },
-      { "name": "NODE", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" },
-      { "name": "VS CODE", "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" },
-      { "name": "FILEMAKER", "icon": "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg" },
-      { "name": "PACKET TRACER", "icon": "https://cdn.worldvectorlogo.com/logos/cisco-2.svg" }
+      {
+        "name": "JAVASCRIPT",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      },
+      {
+        "name": "REACT",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg"
+      },
+      {
+        "name": "REDUX",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg"
+      },
+      {
+        "name": "NODE",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+      },
+      {
+        "name": "VS CODE",
+        "icon": "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg"
+      },
+      {
+        "name": "FILEMAKER",
+        "icon": "https://www.vectorlogo.zone/logos/filemaker/filemaker-icon.svg"
+      },
+      {
+        "name": "PACKET TRACER",
+        "icon": "https://cdn.worldvectorlogo.com/logos/cisco-2.svg"
+      }
     ],
     "hero": {
       "name": "Ahmet Burak OKUR",
@@ -90,9 +153,18 @@
       "basicInfo": [
         { "label": "Date of Birth", "value": "21.02.1992" },
         { "label": "City of Residence", "value": "Kayseri" },
-        { "label": "Education", "value": "Erciyes University, Economics, Bachelor's, 2023" },
-        { "label": "Education", "value": "Atatürk University, Justice, Associate Degree, 2023" },
-        { "label": "Education", "value": "Erciyes University, Veterinary Zootechnics, Master's, Ongoing" },
+        {
+          "label": "Education",
+          "value": "Erciyes University, Economics, Bachelor's, 2023"
+        },
+        {
+          "label": "Education",
+          "value": "Atatürk University, Justice, Associate Degree, 2023"
+        },
+        {
+          "label": "Education",
+          "value": "Erciyes University, Veterinary Zootechnics, Master's, Ongoing"
+        },
         { "label": "Preferred Role", "value": "Frontend, UI" }
       ],
       "aboutMe": [
@@ -106,24 +178,36 @@
         "title": "Technological Meals",
         "description": "A React-based SPA (Single Page Application) project developed for hungry developers. It includes page management with React Router, complex form validations, and Cypress e2e testst.",
         "tags": ["react", "router", "axios", "cypress"],
-        "links": { "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza", "site": "https://teknolojik-yemekler.vercel.app" },
+        "links": {
+          "github": "https://github.com/ABurakOKUR/fsweb-s8-challenge-pizza",
+          "site": "https://teknolojik-yemekler.vercel.app"
+        },
         "img": "/images/food1.png"
       },
       {
         "title": "Pizza Order Form",
         "description": "A project developed strictly according to the Figma design, showcasing semantic HTML5 and advanced CSS techniques.",
         "tags": ["html", "css", "responsive", "ui/ux"],
-        "links": { "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza", "site": "https://pizza-form.vercel.app" },
+        "links": {
+          "github": "https://github.com/ABurakOKUR/fsweb-s5-bonus-challenge-html-pizza",
+          "site": "https://pizza-form.vercel.app"
+        },
         "img": "/images/food2.png"
       }
     ],
     "footer": {
       "title": "Let's work together on the next product.",
       "email": "aokur2@gmail.com",
+      "buttonText": "Start API Test",
+      "loadingText": "Sending...",
+      "successText": "API Test Successful ✅",
       "links": [
         { "name": "Personal Blog", "url": "#" },
         { "name": "Github", "url": "https://github.com/ABurakOKUR" },
-        { "name": "LinkedIn", "url": "https://www.linkedin.com/in/ahmet-burak-okur-845155126/" }
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/ahmet-burak-okur-845155126/"
+        }
       ]
     }
   }

@@ -13,28 +13,40 @@ export default function Footer() {
   });
 
   const handleHireMePost = () => {
-    setStatus({ loading: true, success: false, error: null });
+  setStatus({ loading: true, success: false, error: null });
 
-    const payload = { isim: "Ahmet Burak OKUR", proje: "Portfolyo" };
-
-    axios
-      .post("https://reqres.in/api/pizza", payload, {
-        headers: { "x-api-key": "reqres_8e014d169bf740b59ac9e9875899e44a" },
-      })
-      .then((response) => {
-        console.log("Sunucu Yanıtı:", response.data);
-        setStatus({ loading: false, success: true, error: null });
-      })
-      .catch(() => {
-        console.warn(
-          "API Hatası (401), ancak kod yapısı doğru. Simülasyona geçiliyor.",
-        );
-
-        setTimeout(() => {
-          setStatus({ loading: false, success: true, error: null });
-        }, 1000);
-      });
+  
+  const pizzaData = {
+    isim: "Ahmet Burak OKUR",
+    boyut: "Büyük",
+    malzemeler: ["Mısır", "Zeytin", "Peynir"],
+    özel: "Portfolyo sunum testi"
   };
+
+  
+  axios({
+    method: 'post',
+    url: 'https://reqres.in/api/pizza',
+    data: pizzaData,
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': "reqres_8e014d169bf740b59ac9e9875899e44a"
+    }
+  })
+  .then(response => {
+    
+    console.log("Sunucudan Gelen Onay:", response.data);
+    setStatus({ loading: false, success: true, error: null });
+  })
+  .catch(err => {
+    console.error("Hata Detayı:", err.response?.data || err.message);
+    setStatus({ 
+      loading: false, 
+      success: false, 
+      error: `Hata: ${err.response?.status || 'Bilinmiyor'} - Yetki sorunu.` 
+    });
+  });
+};
 
   return (
     <footer className="py-20 px-4 bg-zinc-50 dark:bg-zinc-900 transition-colors border-t dark:border-zinc-800">
